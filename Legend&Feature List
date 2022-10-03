@@ -120,10 +120,12 @@ CrdR-- Red Cards
 xG-- Expected Goals
 npxG-- Non-Penalty Expected Goals
 
-a_: Attackers
-m_: Midfielders
-d_: Defenders
-g_: goalkeepers
+Feature list annotations:
+ away_: stats for away team
+ a_: Attackers
+ m_: Midfielders
+ d_: Defenders
+ g_: goalkeepers
 
 Home features:
 ['d_TklW',
