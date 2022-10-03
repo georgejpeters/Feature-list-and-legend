@@ -1,0 +1,234 @@
+Legend for Goalkeepers
+
+SoTA-- Shots on Target Against
+GA-- Goals Against
+Saves-- Saves
+Save%-- Save Percentage
+CS-- Clean Sheets
+PSxG-- Post-Shot Expected Goals
+PKatt-- Penalty Kicks Attempted
+PKA-- Penalty Kicks Allowed
+PKsv-- Penalty Kicks Saved
+PKm-- Penalty Kicks Missed
+Cmp-- Passes Completed (Passes longer than 40 yards)
+PassAttemptedLong-- Passes Attempted (Passes longer than 40 yards)
+Cmp%-- Pass Completion Percentage (Passes longer than 40 yards)
+PassAtt-- Passes Attempted
+Thr-- Throws Attempted
+Launch%-- Percentage of Passes that were Launched
+AvgLen-- Average length of passes, in yards
+GoalKickAtt-- Goal Kick Passes Attempted
+GKLaunch%-- Percentage of Goal Kicks that were Launched
+GKAvgLen-- Average length of goal kicks
+Opp-- Opponent's attempted crosses into penalty area
+Stp-- Number of crosses into penalty area successfully stopped
+Stp%-- Percentage of crosses into penalty area successfully stopped
+#OPA-- Number of defensive actions outside of penalty area
+AvgDist-- Average distance from goal to perform defensive actions
+
+Legend for Outfield Players
+
+Cmp-- Total Passes Completed
+PassAtt-- Total Passes Attempted
+Cmp%-- Total Pass Completion Percentage
+PassTotDist-- Total Distance travelled by Passes
+PassPrgDist-- Progressive Distance
+Cmp.1-- Short Passes Completed
+Att.1-- Short Passes Attempted
+Cmp%.1-- Short Passes Completion Percentage
+Cmp.2-- Medium Passes Completed
+Att.2-- Medium Passes Attempted
+Cmp%.2-- Medium Passes Completion Percentage
+Cmp.3-- Long Passes Completed
+Att.3-- Long Passes Attempted
+Cmp%.3-- Long Passes Completion Percentage
+Ast-- Assists
+xA-- Expected Assist
+KP-- Key Passes
+PassFinThird-- Passes into Final Third
+PPA-- Passes into Penalty Area
+CrsPA-- Crosses into Penalty Area
+PassProg-- Progressive Passes
+SCA-- Shot-Creating Action
+PassLiveShot-- Completed Live-Passes that lead to shot attempt
+PassDeadShot-- Completed Dead-Passes that lead to shot attempt
+DribShot-- Successful Dribbles that lead to shot attempt
+ShLSh-- Shot that lead to another shot attempt
+Fld-- Fouls drawn that lead to shot attempt
+DefShot-- Defensive Actions that lead to shot attempt
+GCA-- Goal-Creating Action
+PassLiveGoal-- Completed Live-Passes that lead to Goal
+PassDeadGoal-- Completed Dead-Passes that lead to Goal
+DribGoal-- Successful Dribbles that lead to Goal
+ShGoal-- Shot that lead to another Goal
+FldGoal-- Fouls drawn that lead to Goal
+DefGoal-- Defensive Actions that lead to Goal
+Tkl-- Number of players tackled
+TklW-- Tackles Won
+TacklesDef3rd-- Tackles won in Defensive Third
+TacklesMid3rd-- Tackles won in Midfield Third
+TacklesAtt3rd-- Tackles won in Attack Third
+DribTackled-- Number of Dribblers tackled
+DribContest-- Dribbles contested
+DribTackled%-- Percentage of dribblers tackled
+Past-- Number of times dribbled past
+Press-- Pressures
+SuccPress-- Successful Pressures
+SuccPress%-- Successful Pressure Percentage
+PressDef3rd-- Number of times applying pressures in Defensive third
+PressMid3rd-- Number of times applying pressures in Midfield third
+PressAtt3rd-- Number of times applying pressures in Attacking third
+Blocks-- Number of times blocking the ball by standing in its path
+BlockSh-- Number of times blocking a shot by standing in its path
+ShSv-- Number of times blocking a shot that was on target, by standing in its path
+Pass-- Number of times blocking a pass by standing in its path
+Int-- Interceptions
+Tkl+Int-- Number of players tackled plus number of interceptions
+Clr-- Clearances
+Err-- Errors leading to an opponent's shot
+Touches-- Touches
+Def Pen-- Touches in Defensive Penalty Area
+TouchDef3rd-- Touches in Defensive Third
+TouchMid3rd-- Touches in Midfield Third
+TouchAtt3rd-- Touches in Attacking Third
+AttPen-- Touches in Attacking Penalty Area
+Live-- Live-Ball Touches
+Succ-- Dribbles completed successfully
+Att-- Dribbles attempted
+Succ%-- Percentage of Dribbles completed successfully
+#Pl-- Number of players dribbled past
+Megs-- Nutmegs
+Carries-- Carries
+TotDist-- Total Distance Carried
+PrgDist-- Progressive Distance
+ProgCarries-- Progressive Carries
+CarriesFinThird-- Carries into Final Third
+CPA-- Carries into Penalty Area
+Mis-- Miscontrols
+Dis-- Dispossessed
+Targ-- Pass Targets
+Rec-- Passes Received
+Rec%-- Passes Received Percentage
+ProgPassRec-- Progressive Passes Received
+Gls-- Goals
+PK-- Penalty Kicks Made
+PKatt-- Penalty Kicks Attempted
+Sh-- Total Shots attempted
+SoT-- Shots on Target
+CrdY-- Yellow Cards
+CrdR-- Red Cards
+xG-- Expected Goals
+npxG-- Non-Penalty Expected Goals
+
+a_: Attackers
+m_: Midfielders
+d_: Defenders
+g_: goalkeepers
+
+Home features:
+['d_TklW',
+ 'd_DribContest',
+ 'd_SuccPress%',
+ 'd_Int',
+ 'd_Clr',
+ 'd_Dis',
+ 'd_TacklesDef3rd',
+ 'd_Gls',
+ 'd_Ast',
+ 'd_KP',
+ 'd_xG',
+ 'd_xA',
+ 'd_SoT',
+ 'm_Cmp',
+ 'm_PassAtt',
+ 'm_Cmp%',
+ 'm_Ast',
+ 'm_xA',
+ 'm_KP',
+ 'm_DribShot',
+ 'm_GCA',
+ 'm_TklW',
+ 'm_SuccPress%',
+ 'm_Gls',
+ 'm_xG',
+ 'm_TacklesMid3rd',
+ 'm_SoT',
+ 'a_xG',
+ 'a_SoT',
+ 'a_Gls',
+ 'a_CPA',
+ 'a_Succ%',
+ 'a_TacklesAtt3rd',
+ 'a_GCA',
+ 'a_Ast',
+ 'a_xA',
+ 'a_KP',
+ 'a_Cmp',
+ 'a_Int',
+ 'a_Clr',
+ 'away_g_GA',
+ 'away_g_Saves',
+ 'away_g_CS',
+ 'away_g_PSxG',
+ 'away_g_Cmp%',
+ 'away_d_TklW',
+ 'away_d_DribContest',
+ 'away_d_SuccPress%',
+ 'away_d_Int',
+ 'away_d_Clr',
+ 'away_d_Dis',
+ 'away_d_TacklesDef3rd']
+
+Away features:
+['away_d_TklW',
+ 'away_d_DribContest',
+ 'away_d_SuccPress%',
+ 'away_d_Int',
+ 'away_d_Clr',
+ 'away_d_Dis',
+ 'away_d_TacklesDef3rd',
+ 'away_d_Gls',
+ 'away_d_Ast',
+ 'away_d_KP',
+ 'away_d_xG',
+ 'away_d_xA',
+ 'away_d_SoT',
+ 'away_m_Cmp',
+ 'away_m_PassAtt',
+ 'away_m_Cmp%',
+ 'away_m_Ast',
+ 'away_m_xA',
+ 'away_m_KP',
+ 'away_m_DribShot',
+ 'away_m_GCA',
+ 'away_m_TklW',
+ 'away_m_SuccPress%',
+ 'away_m_Gls',
+ 'away_m_xG',
+ 'away_m_TacklesMid3rd',
+ 'away_m_SoT',
+ 'away_a_xG',
+ 'away_a_SoT',
+ 'away_a_Gls',
+ 'away_a_CPA',
+ 'away_a_Succ%',
+ 'away_a_TacklesAtt3rd',
+ 'away_a_GCA',
+ 'away_a_Ast',
+ 'away_a_xA',
+ 'away_a_KP',
+ 'away_a_Cmp',
+ 'away_a_Int',
+ 'away_a_Clr',
+ 'g_GA',
+ 'g_Saves',
+ 'g_CS',
+ 'g_PSxG',
+ 'g_Cmp%',
+ 'd_TklW',
+ 'd_DribContest',
+ 'd_SuccPress%',
+ 'd_Int',
+ 'd_Clr',
+ 'd_Dis',
+ 'd_TacklesDef3rd']
